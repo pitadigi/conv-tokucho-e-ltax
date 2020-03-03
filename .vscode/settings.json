@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/0bd51e36-d11b-4448-9431-7935f1b16393/resourceGroups/pitadigi/providers/Microsoft.Web/sites/pitadigi-conveltax",
+    "appService.deploySubpath": ""
+}
