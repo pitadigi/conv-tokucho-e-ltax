@@ -1,6 +1,6 @@
 {
   "name": "conv-tokucho-eltax",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "start": "pm2-runtime app.js",
     "ng": "ng",
