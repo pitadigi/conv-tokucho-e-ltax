@@ -61,10 +61,8 @@ export class AppComponent {
     const end: string = this.fileText.substr(120 + (recordnum * 120) + 120, 120);
 
     // 納付月分を算出する
-    // 2020年1月は3201とすると記載がある
-    // 2020年3月も3203でないとエラーになる
-    // 年が令和2だったら平成32年とすることにする
-    // その後のことは不明
+    // 令和1年から令和10年までは平成年で算出する
+    // いずれe-ltaxが令和に対応したらそのときに対応方法を決める
     let year = parseInt(header.substr(23, 2), 10);
     if (year >= 1 && year <= 10) {
       year += 30;
