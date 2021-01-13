@@ -66,7 +66,7 @@ export class AppComponent {
     // 年が令和2だったら平成32年とすることにする
     // その後のことは不明
     let year = parseInt(header.substr(23, 2), 10);
-    if (year === 1 || year === 2) {
+    if (year >= 1 && year <= 10) {
       year += 30;
     }
     const month = parseInt(header.substr(25, 2), 10);
